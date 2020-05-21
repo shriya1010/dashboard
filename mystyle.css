@@ -1,0 +1,22 @@
+.box {
+    width: 300px;
+    border: 1px solid palevioletred;
+    padding: 30px  ;
+    margin: 20px;
+    text-align: center;
+    
+  }
+  
+  img{
+      width:50px;
+      height:60px;
+      border-radius: 25px
+    }
+    p{
+        font-weight: bold;
+    }
+    .button{
+        padding: 5px  ;
+        margin: 10px;
+
+    }

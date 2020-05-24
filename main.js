@@ -1,17 +1,15 @@
 var a=axios.get('http://localhost:3000/client') .then(function(response){ 
-    var txt="";
+    var data="";
 info=response.data
-txt+="<div class='row'>"
-for (x in info) 
+for (index in info) 
 {
-txt += "<div class='box' ><img src='"+info[x].image+"' alt='image failed to load'><p>" + info[x].name + "</p>"
-txt +="<a href='"+info[x].email+"'>"+info[x].email+"</a><div class='button'>"
-txt +="<button type='button' class='btn btn-outline-dark'><i class='fa fa-user-o'></i>Profile</button>&nbsp;"
-txt+="<button type='button' class='btn btn-outline-dark'><i class='fa fa-envelope-o'></i>Contact</button></div></div>"
+data += "<div class='box' ><img src='"+info[index].image+"' alt='image failed to load'><p>" + info[index].name + "</p>"
+data +="<a href='"+info[index].email+"'>"+info[index].email+"</a>"
+data +="<div class='button'><button type='button' ><i class='fa fa-user-o'></i>&nbsp;&nbsp;Profile</button>"
+data+="<button type='button' ><i class='fa fa-envelope-o'></i>&nbsp;&nbsp;Contact</button></div></div>"
   }
-  txt+="</div>"
       
- document.getElementById("display").innerHTML = txt; 
+ document.getElementById("display").innerHTML = data; 
 
 
 } )

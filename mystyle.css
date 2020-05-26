@@ -1,6 +1,45 @@
+ body { 
+    background-image: linear-gradient(to bottom left,blue,powderblue); 
+    margin-top:0px ;
+    margin-bottom:0px ;
+    margin-right: 50px;margin-left: 200px;
+} 
+  
+#main{
+    background-color:white;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+#display{
+    margin:70px;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin:0px 50px 0px 50px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 25px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: blue;
+  }
+
  .box {   
-    border: 1px ;
-    
+    border: 1px ;    
     padding: 40px 10px 40px 10px;
     margin: 10px;
     text-align: center;
@@ -12,10 +51,68 @@
     transform: scale(1.2); 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
   }  
-  div{
-      margin:5px;
-      
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
   }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 5px;
+    z-index: 1;
+  }
+    .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+   .dropdown-content a:hover {background-color: #f1f1f1}
+   .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  .button2 {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: 30px 30px;
+  }
+  
   img{
       width:40px;
       height:40px;
@@ -27,7 +124,7 @@
     .button{
         margin:8px;
     }
-    button{        
+    .buttonhover{        
     display: inline-block;
         background-color: white;
         border: 1px solid grey;
@@ -40,6 +137,6 @@
         cursor: pointer;        
       border-radius: 3px;   }
 
-    button:hover 
+    .buttonhover:hover 
     {   border-color: blue;
         color:blue;     }

@@ -6,12 +6,51 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="mystyle.css">   
  </head>
-<body>
+<body >
+  <div >
+  <div class="sidenav">
+    <a href="#">
+      <i class="fa fa-folder-o"></i>&nbsp;&nbsp;Dashboard</a>
+    <a href="#">
+      <i class="fa fa-users"></i>&nbsp;&nbsp;My Clients</a>
+    <a href="#">
+      <i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;Client Projects</a>
+    <a href="#">
+      <i class="fa fa-film"></i>&nbsp;&nbsp;Invite Client</a>
+    <a href="#"> <i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Message</a>
+    <a href="#"><i class="fa fa-cog"></i>&nbsp;&nbsp;Settings</a>
+  </div>
 
+  <div id="main">    
+    <div>   
+    <header>
+      <div class="dropdown">
+        <span>Active Clients</span>
+        <div class="dropdown-content">
+        <p>Active</p>
+        </div>
+      </div>
+      <div style="float: right;">
+              <input type="text" name="search" placeholder="Search Client">
+
+      <div class="dropdown" >
+        <button class="dropbtn">Filter</button>
+        <div class="dropdown-content">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        </div>
+        
+      <button class="button2">Search</button>
+      </div></div>
+
+    </header></div>
+    
 <div id="display"></div>
+</div>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="main.js" defer ></script>
-
+</div>
 </body>
 </html>

@@ -12,8 +12,8 @@ for(i=0;i<(info[index].contact).length;i++)
   data += "<img src='"+info[index].contact[i]+"' alt='image failed to load'>"
 }
 
-data +="</div><div class='button'><button type='button' ><i class='fa fa-user-o'></i>&nbsp;&nbsp;Profile</button>"
-data+="<button type='button' ><i class='fa fa-envelope-o'></i>&nbsp;&nbsp;Contact</button></div></div>"
+data +="</div><div class='button'><button type='button' class='buttonhover'><i class='fa fa-user-o'></i>&nbsp;&nbsp;Profile</button>"
+data+="<button type='button' class='buttonhover'><i class='fa fa-envelope-o'></i>&nbsp;&nbsp;Contact</button></div></div>"
   }
       
  document.getElementById("display").innerHTML = data; 

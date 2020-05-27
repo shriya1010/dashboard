@@ -5,7 +5,7 @@ var data="",index,i;
 for (index in info) 
 {
 data += "<div class='box' ><img src='"+info[index].image+"' alt='image failed to load'><p>" + info[index].name + "</p>"
-data +="<a href='"+info[index].email+"'>"+info[index].email+"</a><div>"
+data +="<a href='"+info[index].email+"'>"+info[index].email+"</a><div class='contact'>"
 
 for(i=0;i<(info[index].contact).length;i++)
 {

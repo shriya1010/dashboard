@@ -13,7 +13,7 @@
 }
 #display{
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 4px;
 }
 header{
     background-color: white;
@@ -37,7 +37,7 @@ header img{
     background-color:white;
     overflow-x: hidden;
     padding-top: 10px;
-    margin:0px 50px 0px 50px;
+    margin-left: 50px;
   }
   
   .sidenav a {
@@ -50,28 +50,33 @@ header img{
   
   .sidenav a:hover {    color: blue; }
   .notification {
-    background-color: white;
-    color: black;
+    background-color: whitesmoke;
+    color: green;
     position: relative;
-    display: inline-block;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    
+    float:right;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/web-app-media-contact-and-essential-simple-fill/512/Alarm_Notification-512.png');
+    background-position: 6px 6px; 
+    background-repeat: no-repeat;    
+    background-size: 25px 25px;
   }
   
   
-  .notification .badge {
+  .notification .dot {
     position: absolute;
-    top: -10px;
-    right: -10px;
-    padding: 5px 10px;
+    top:0px;
+    right: 0px;
+    padding: 6px 6px;
     border-radius: 50%;
     background-color: red;
-    color: white;
+    
   }
 
  .box {   
-    padding: 20px 3px 20px 3px;
-    margin: 5px;
+    padding: 8px 0px 8px 0px;
+    margin: 4px;
     text-align: center;
     display: inline-block;
     transition: transform .2s;
@@ -79,15 +84,15 @@ header img{
     
   }
   .box .name{
-    font-size: 20px;
+    font-size: 18px;
   }
   .box:hover{
 
     transform: scale(1.2); 
-    box-shadow: 0 4px 8px 0 rgba(52, 43, 82, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(32, 12, 95, 0.2), 0 6px 20px 0 rgba(20, 28, 141, 0.19);  
   }  
 .contact{
-    margin:20px;
+    margin:5px;
 }
 
 .dropdown {
@@ -143,11 +148,11 @@ header img{
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 15px;
+    padding: 10px 32px;
     background-color: white;
     background-image: url('https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png');
     background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 10px 32px;
+    background-repeat: no-repeat;    
     background-size: 15px 15px;
   }
   img{

@@ -1,12 +1,7 @@
  body { 
-    /*background-image: linear-gradient(to bottom left,blue,powderblue); 
-    /* margin-top:0px ;
-    margin-bottom:0px ;
-    margin-right: 50px;margin-left: 200px; */
     background-image: url('https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Blue_Background_with_Wavy_Lines.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    
+    background-size: 100%;    
     margin:50px 50px 50px 200px;
     font-family: Arial, Helvetica, sans-serif;
 } 
@@ -17,13 +12,12 @@
     position: relative;
 }
 #display{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 header{
     background-color: white;
     height: 50px;
-    top: 0;
     padding-top: 20px;
     padding-left:20px;
     padding-right: 20px;
@@ -32,18 +26,17 @@ header img{
     width:40px;
     height:40px;
     border-radius: 25px;
-    margin: 5px;
+    
 }
 .sidenav {
     height: 100%;
     width: 200px;
     position: absolute;
-    z-index: 1;
-    
+    z-index: 1;    
     left: 0;
     background-color:white;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 10px;
     margin:0px 50px 0px 50px;
   }
   
@@ -56,20 +49,42 @@ header img{
   }
   
   .sidenav a:hover {    color: blue; }
+  .notification {
+    background-color: white;
+    color: black;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    
+  }
+  
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
 
  .box {   
-    /*border: 1px ; */   
     padding: 20px 3px 20px 3px;
     margin: 5px;
     text-align: center;
     display: inline-block;
     transition: transform .2s;
     background-color: white;
+    
+  }
+  .box .name{
+    font-size: 20px;
   }
   .box:hover{
 
     transform: scale(1.2); 
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    box-shadow: 0 4px 8px 0 rgba(52, 43, 82, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
   }  
 .contact{
     margin:20px;
@@ -133,23 +148,26 @@ header img{
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 10px 32px;
-    background-size: 30px 30px;
+    background-size: 15px 15px;
   }
   img{
-      width: 100px;
-      height: 60px;
-      margin: 20px 20px 50px 50px;
+      width: 90px;
+      height: 50px;
+      margin: 0px 20px 40px 50px;
   }
-  .box img{
-      width:40px;
-      height:40px;
+  .box img {
+    width:70px;
+    height:70px;
+    border-radius: 45px;
+    margin:10px;
+  }
+  .box .contact img {
+      width:30px;
+      height:30px;
       border-radius: 25px;
       margin: 5px;
     }
     
-    p{
-        font-weight: bold;
-    }
     .button{
         margin:8px;
     }

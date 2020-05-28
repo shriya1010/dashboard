@@ -2,7 +2,7 @@
     background-image: url('https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/Abstract_Blue_Background_with_Wavy_Lines.jpg');
     background-repeat: no-repeat;
     background-size: 100%;    
-    margin:50px 50px 50px 180px;
+    margin:60px 40px 60px 170px;
     font-family: Arial, Helvetica, sans-serif;
 } 
 
@@ -13,7 +13,7 @@
 }
 #display{
     margin-top: 40px;
-    margin-left: 4px;
+    margin-left: 10px;
 }
 header{
     background-color: white;
@@ -76,7 +76,7 @@ header img{
   }
 
  .box {   
-    padding: 8px 0px 8px 0px;
+    padding: 8px;
     margin: 6px;
     text-align: center;
     display: inline-block;
